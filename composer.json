@@ -1,0 +1,18 @@
+{
+  "name": "maxmiller/psr-4_composer",
+  "description": "Estudando PSR-4",
+  "authors": [
+    {
+      "name": "Maxmiller Nunes",
+      "email": "maxmillernunes11@gmail.com"
+    }
+  ],
+  "require:": {},
+  "autoload": {
+    "psr-4": {
+      "Controllers\\": "Controllers/",
+      "Models\\": "Models/",
+      "Core\\": "Core/"
+    }
+  }
+}
